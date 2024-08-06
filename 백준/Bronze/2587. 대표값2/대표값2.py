@@ -12,7 +12,7 @@ for i in range(5):
             a[j+1]=temp
 
 average= sum(a)//len(a)
-middle= a[len(a)//2]
+middle= a[2]
 
 print(average)
 print(middle)
