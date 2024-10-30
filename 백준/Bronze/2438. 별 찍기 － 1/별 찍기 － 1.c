@@ -1,29 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main(void)
-
+int main(void) 
 {
-	
-	int n;
-	int i=0;
-	int j = 0;
-	scanf("%d", &n);
-
-	while (i<n)
+	int a;
+	scanf("%d", &a);
+	for (int i = 0; i < a; i++)
 	{
-		j = 1;
-		i++;
-		while (j<=i) 
-		{
+		for (int j = 0; j < i+1; j++)
 			printf("*");
-			j++;
-			
-		}
-		printf("\n");
-
+			printf("\n");
 	}
-
+	
 	return 0;
-
 }
